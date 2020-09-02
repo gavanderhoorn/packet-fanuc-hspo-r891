@@ -7,6 +7,8 @@ v0.1.4
 This is a (rather quick-and-dirty) Wireshark Lua dissector for the Fanuc High-Speed Position Output (R891) protocol.
 For more information on the protocol, refer to the relevant Fanuc option documentation.
 
+![Screenshot of Wireshark dissecting the sample capture](sshot.png)
+
 
 ## Status
 
