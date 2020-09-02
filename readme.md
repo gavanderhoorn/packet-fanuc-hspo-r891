@@ -8,6 +8,16 @@ This is a (rather quick-and-dirty) Wireshark Lua dissector for the Fanuc High-Sp
 For more information on the protocol, refer to the relevant Fanuc option documentation.
 
 
+## Status
+
+The dissector is mostly complete, except for the following:
+
+ - no support for XML packets (ie: non-binary)
+ - no support for packets with variables (ie: type 16)
+
+This might change in future versions.
+
+
 ## Installation
 
 ### Linux
