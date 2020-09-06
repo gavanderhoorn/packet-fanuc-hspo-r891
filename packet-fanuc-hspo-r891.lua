@@ -239,23 +239,23 @@ do
 
 		-- TODO: we hard-code the units here (not sure there would be any way
 		-- for us to determine which units a field would have)
-		add_float_with_label(pos_tree, fields.pos_j1, buf(offset_, 4), "J1", "deg")
+		add_float_with_label(pos_tree, fields.pos_j1, buf(offset_, 4), "J1", "rad")
 		offset_ = offset_ + 4
-		add_float_with_label(pos_tree, fields.pos_j2, buf(offset_, 4), "J2", "deg")
+		add_float_with_label(pos_tree, fields.pos_j2, buf(offset_, 4), "J2", "rad")
 		offset_ = offset_ + 4
-		add_float_with_label(pos_tree, fields.pos_j3, buf(offset_, 4), "J3", "deg")
+		add_float_with_label(pos_tree, fields.pos_j3, buf(offset_, 4), "J3", "rad")
 		offset_ = offset_ + 4
-		add_float_with_label(pos_tree, fields.pos_j4, buf(offset_, 4), "J4", "deg")
+		add_float_with_label(pos_tree, fields.pos_j4, buf(offset_, 4), "J4", "rad")
 		offset_ = offset_ + 4
-		add_float_with_label(pos_tree, fields.pos_j5, buf(offset_, 4), "J5", "deg")
+		add_float_with_label(pos_tree, fields.pos_j5, buf(offset_, 4), "J5", "rad")
 		offset_ = offset_ + 4
-		add_float_with_label(pos_tree, fields.pos_j5, buf(offset_, 4), "J5", "deg")
+		add_float_with_label(pos_tree, fields.pos_j5, buf(offset_, 4), "J5", "rad")
 		offset_ = offset_ + 4
-		add_float_with_label(pos_tree, fields.pos_j6, buf(offset_, 4), "J6", "deg")
+		add_float_with_label(pos_tree, fields.pos_j6, buf(offset_, 4), "J6", "rad")
 		offset_ = offset_ + 4
-		add_float_with_label(pos_tree, fields.pos_j8, buf(offset_, 4), "J8", "deg")
+		add_float_with_label(pos_tree, fields.pos_j8, buf(offset_, 4), "J8", "rad")
 		offset_ = offset_ + 4
-		add_float_with_label(pos_tree, fields.pos_j9, buf(offset_, 4), "J9", "deg")
+		add_float_with_label(pos_tree, fields.pos_j9, buf(offset_, 4), "J9", "rad")
 		offset_ = offset_ + 4
 
 		-- status and io
