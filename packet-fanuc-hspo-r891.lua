@@ -35,7 +35,7 @@ do
 	-- 
 	-- constants
 	-- 
-	local DISSECTOR_VERSION             = "0.1.4"
+	local DISSECTOR_VERSION             = "0.1.5"
 
 	local DEFAULT_R891_PORT             = 80
 	local FANUCROB_OUI                  = 0x00e0e4
