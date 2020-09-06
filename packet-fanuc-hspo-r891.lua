@@ -188,7 +188,7 @@ do
 
 	local function add_float_with_label(tree, field, buf, label, unit)
 		-- if only add_packet_field(..) worked for floats ..
-		tree:add(field, buf):set_text(_F("%s: %10.4f %s", label, buf:float(), unit))
+		return tree:add(field, buf):set_text(_F("%s: %10.4f %s", label, buf:float(), unit))
 	end
 
 
